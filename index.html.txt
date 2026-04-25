@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Initiative Hub | University of Cape Coast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-water"></i> Ocean Initiative Hub
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact" class="btn-primary">Join Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Action for Coastal Resilience</h1>
+            <p>A student-led organization at the University of Cape Coast dedicated to protecting Ghana’s coastline through education, action, and research.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Become a Member</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Based at UCC, Acting for Ghana</h3>
+                    <p>The <strong>Ocean Initiative Hub</strong> is a dynamic student-led organization founded under the guidance of Dr. Mabel Anim, Senior Lecturer in the Department of Geography and Regional Planning at the University of Cape Coast.</p>
+                    <p>We bridge academic knowledge with community action to protect Ghana’s vulnerable coastlines and empower local communities.</p>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check-circle"></i> Student-Led & Community-Focused</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Research-Backed Initiatives</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Coastal Conservation & Education</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Coastal Conservation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Pillars -->
+    <section id="mission" class="section bg-light">
+        <div class="container">
+            <h2>Our Core Pillars</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fa-solid fa-graduation-cap icon"></i>
+                    <h3>Education & Awareness</h3>
+                    <p>Workshops, seminars, and campaigns to educate students and communities about coastal erosion, pollution, and climate change.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-hands-holding-circle icon"></i>
+                    <h3>Community Action</h3>
+                    <p>Beach clean-ups, mangrove planting, and direct support for fishing communities along Ghana’s coast.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-microscope icon"></i>
+                    <h3>Research & Advocacy</h3>
+                    <p>Supporting student research projects that propose science-based solutions for coastal resilience in Ghana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Our Leadership</h2>
+            <p class="section-subtitle">Guided by expertise, driven by students.</p>
+            
+            <div class="founder-card">
+                <div class="founder-info">
+                    <h3>Dr. Mabel Anim</h3>
+                    <p class="role">Founder & Patron</p>
+                    <p class="bio">Senior Lecturer, Department of Geography and Regional Planning, University of Cape Coast.</p>
+                    <p>Dr. Anim provides academic oversight and strategic direction, ensuring our initiatives are grounded in scientific research and regional planning best practices.</p>
+                </div>
+            </div>
+
+            <div class="student-leaders">
+                <h3>Student Executive Committee</h3>
+                <p>Meet the students driving change. Update this section with your current leaders.</p>
+                <div class="leaders-grid">
+                    <div class="leader-box">
+                        <h4>President</h4>
+                        <p>[Your Name]</p>
+                    </div>
+                    <div class="leader-box">
+                        <h4>General Secretary</h4>
+                        <p>[Name]</p>
+                    </div>
+                    <div class="leader-box">
+                        <h4>Project Lead</h4>
+                        <p>[Name]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-blue">
+        <div class="container contact-container">
+            <h2>Get Involved</h2>
+            <p>Are you a UCC student or community partner? Join us in building a resilient coast.</p>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Department / Organization" required>
+                <select>
+                    <option value="">I want to...</option>
+                    <option value="join">Join as a Student Member</option>
+                    <option value="volunteer">Volunteer for an Event</option>
+                    <option value="partner">Partner with Us</option>
+                </select>
+                <textarea placeholder="Message" rows="5"></textarea>
+                <button type="submit" class="btn-white">Send Message</button>
+            </form>
+            
+            <div class="contact-info-footer">
+                <p><i class="fa-solid fa-location-dot"></i> Dept. of Geography & Regional Planning, UCC, Cape Coast, Ghana</p>
+                <p><i class="fa-solid fa-envelope"></i> info@oceaninitiativehub.org</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ocean Initiative Hub. All rights reserved.</p>
+            <p>University of Cape Coast, Ghana</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
